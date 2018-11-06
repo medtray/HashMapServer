@@ -1,12 +1,5 @@
 /**
- * CSE 411
- * Fall 2018
- * Programming Assignment #3
- *
- * The purpose of this assignment is to gain more experience with C++ support
- * for embedded scripting, networking, and regular expressions.  We will do so
- * by creating a server that implements a key/value store.
- *
+ 
  * Key/value stores play a significant role in modern distributed systems.  They
  * allow a program to easily store data to a high-availability server, and to
  * easily retrieve that data.  A key/value store may be persistent, or it may be
@@ -130,21 +123,6 @@
  * 
  * Note: when ERROR is returned, there should be no further data transmitted in 
  * the response.
- * 
- * You should always check for properly-formed input.  In particular, an 
- * extension of this project might add additional "headers" to a request, so you
- * should not ignore leading text or assume messages will be in the correct 
- * form.
- *
- * Your program should use advanced features of C++ whenever appropriate.  It
- * should compile with g++ version 7.  You should organize your code into files
- * in a way that is appropriate.  You should comment your code.
- * 
- * In addition to the kvserver executable, you should make one (or more) clients
- * that demonstrate the abilities of your kvserver.  Be sure to update the 
- * Makefile accordingly.
- *
- * Turn-in will be via bitbucket.
  */
 
 #include <iostream>
